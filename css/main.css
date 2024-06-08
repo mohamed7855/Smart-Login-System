@@ -1,0 +1,54 @@
+body, .navbar {
+  background: #24353f !important;
+}
+body{
+  height: 90vh !important;
+}
+/* header */
+.content , .navbar{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+  color: #17a2b8;
+}
+.form-control {
+  background-color: transparent !important;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem !important;
+  -webkit-border-radius: 0.25rem !important;
+  -moz-border-radius: 0.25rem !important;
+  -ms-border-radius: 0.25rem !important;
+  -o-border-radius: 0.25rem !important;
+}
+.form-control::placeholder {
+  color: #ced4da;
+}
+.form-control:focus {
+  border-color: #17a2b8;
+  box-shadow: unset;
+}
+.btn{
+  --bs-btn-hover-color: #fff;
+}
+.btn.login,.btn.signup{
+  border: solid 1px #17a2b8 !important;
+  --bs-btn-hover-bg: #17A2B8;
+}
+.btn.logout, .btn.removeAccount{
+  padding: .5rem;
+  color: rgba(255, 255, 255, .6);
+}
+.content a:hover {
+  text-decoration: underline !important;
+}
+.navbar-collapse.collapse.show  {
+.logout, .btn{
+  margin-top: 5px;
+  width: 100%;}
+}
+.navbar-toggler {
+  border-color: #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: unset;
+}
